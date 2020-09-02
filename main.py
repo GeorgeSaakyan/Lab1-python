@@ -1,6 +1,6 @@
-#Author: George Saakyan gxs5416@psu.edu
-#Collaborator: Christian Torres ckt5298@psu.edu
-#Collaborator: Manan Patel mxp5787@psu.edu
+# Author: George Saakyan gxs5416@psu.edu
+# Collaborator: Christian Torres ckt5298@psu.edu
+# Collaborator: Manan Patel mxp5787@psu.edu
 
 temperature = float(input("Enter temperature: "))
 unit = input("Enter unit in F/f or C/c: ")
@@ -13,4 +13,3 @@ elif unit == "f" or unit == "F":
   print(f"{temperature}° in Fahrenheit is equivalent to {celsius}° Celsius.")
 else:
   print(f"Invalid unit({unit}).")
-
